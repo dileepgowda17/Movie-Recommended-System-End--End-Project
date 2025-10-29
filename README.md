@@ -37,10 +37,6 @@ Users can select any movie, and the app recommends similar ones instantly.
 
 ---
 
-## 📁 Project Structure
-Movie-Recommended-System-End--End-Project/ │ ├── 📄 app.py                        # Streamlit web app (main deployment file) ├── 📄 main.py                       # Core logic (data loading, similarity computation) ├── 📄 requirements.txt              # List of dependencies ├── 📄 README.md                     # Project documentation │ ├── 📁 .venv/                        # Virtual environment (created using: python -m venv .venv) │ ├── 📁 notebooks/                    # For experiments, data cleaning, and model building │   └── Movie_Recommendation_System.ipynb │ ├── 📁 data/                         # Dataset folder (movies, credits, etc.) │   ├── movies.csv │   └── credits.csv │ ├── 📁 models/                       # Folder to store trained model files │   └── similarity.pkl               # Pickled similarity matrix or model │ ├── 📁 utils/                        # Optional helper functions (loading data, recommending movies) │   └── utils.py │ ├── 📁 assets/                       # Screenshots, logos, or poster images │   └── demo_screenshot.png │ └── 📄 .gitignore                    # Files/folders to be ignored by Git (like .venv, pycache)
-
----
 
 ### 💡 Notes
 - `.venv` helps isolate dependencies for your project.
